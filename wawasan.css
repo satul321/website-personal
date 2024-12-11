@@ -1,0 +1,55 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #444;
+  background-color: #f0f8ff;
+  margin: 0;
+}
+
+.header {
+  background: #6c63ff;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.insights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fff;
+}
+
+.insight {
+  background: #eaf4ff;
+  border: 1px solid #dbe9ff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.insight h2 {
+  font-size: 1.5rem;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
